@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+struct StorySequence {
+    var placeholder: String?
+    
+    init (placeholder: String?) {
+        self.placeholder = placeholder
+    }
+}
+
+struct StorySequenceStep {
+    var placeholder: String?
+    
+    init (placeholder: String?) {
+        self.placeholder = placeholder
+    }
+}
